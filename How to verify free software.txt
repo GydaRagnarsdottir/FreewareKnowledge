@@ -1,0 +1,14 @@
+Verifying SHA256 checksum:
+Command line:
+Linux:
+sha256sum /path/to/file
+Mac:
+shasum -a 256 /path/to/file
+Windows:
+<1>CMD:
+CertUtil -hashfile C:\path\to\file SHA256
+<2>Powershell:
+Get-FileHash C:\path\to\file -Algorithm SHA256
+
+credit:
+https://docs.hak5.org/hc/en-us/articles/360049922674-How-to-verify-the-SHA256-checksum-of-a-downloaded-fil
