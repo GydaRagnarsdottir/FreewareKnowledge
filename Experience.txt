@@ -1,0 +1,1 @@
+When conda environment prompts "Please specify --curl-dir=/path/to/built/XYZ" after attempts of installing something, it means that thing needs the XYZ component to build.
